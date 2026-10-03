@@ -1,16 +1,4 @@
-# Como contribuir
-
-1. Registre o requisito e os criterios de aceite no ticket do Jira.
-2. Trabalhe em uma branch do repositorio da organizacao. Inclua a chave do ticket no nome: `KAN-123-descricao`.
-3. Inclua a chave do ticket nos commits e no titulo do pull request.
-4. Descreva problema, solucao, validacao e impactos. Nao inclua segredos ou dados reais de clientes nas evidencias.
-5. Solicite revisao de `@allef-boncourage`. A aprovacao deve ocorrer antes do merge na branch principal.
-6. Novos commits exigem nova revisao. Resolva os comentarios antes do merge.
-7. Publicacoes de aplicacoes passam pelo Jenkins. Merge nao equivale a deploy nem a validacao em producao.
-
-Use IA para acelerar o trabalho, com revisao humana, testes e responsabilidade sobre a entrega.
-
-O autor de um pull request nao pode aprovar seu proprio trabalho. Se Allef for o autor, combine um revisor independente antes de prosseguir; nao contorne as protecoes.
+# BonCourageTech - instruções de contribuição
 
 ## Autorização de agentes para branches e PRs
 
@@ -23,3 +11,5 @@ O autor de um pull request nao pode aprovar seu proprio trabalho. Se Allef for o
 - Gabriel pode usar seu agente neste fluxo. Cada colaborador é responsável por revisar a contribuição da IA e acompanhar a tarefa até a validação da entrega.
 - Novos repositórios devem receber estas instruções e as pontes Claude/Copilot no onboarding. Um AGENTS.md no repositório .github não é herdado automaticamente por outros repositórios.
 - Referências: [KAN-25](https://boncouragetech.atlassian.net/browse/KAN-25) e [governança](https://boncouragetech.atlassian.net/wiki/spaces/COBALT/pages/688166).
+
+Leia o ticket Jira e os documentos vinculados antes do trabalho. Use a chave KAN em branch, commits e PR. Atualize o Jira após cada avanço, com SHA, links, validação real e limitações. Não exponha segredos ou dados reais de clientes. Deploy de aplicações somente pelo Jenkins e orçamento AWS até USD 225/mês. Elias conduz Discovery; Gabriel implementa; Allef valida escopo e aprova código. Preserve as regras de revisão e histórico. Esta política não concede bypass aos agentes.
